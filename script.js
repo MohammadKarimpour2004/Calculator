@@ -3,10 +3,10 @@ nums = "";
 function data(val){
     input.value += val
 }
-function nategeh(too) {
+function nategeh(ntg) {
         nums += input.value
         input.value = ''
-        nums += too
+        nums += ntg
 }
 function creates(){
     nums += input.value
